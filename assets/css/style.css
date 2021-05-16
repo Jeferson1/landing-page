@@ -123,17 +123,17 @@ h1 {
 .use-mask {
     background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_2545,h_900/v1613521435/assets/bc/0529b6-c37a-416b-9907-2cb44c4c2888/original/Earner_Home_bg_desktop2x.png");
     width: 100%;
-    height: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right:  300px;;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;    
 }
 
 .use-mask-form {
     background-color: #FFFFFF;
-    margin-top: 4%;
-    margin-left: 15%;
+    margin-left: 10%;
     height: 600px;
     width: 580px;
 }
@@ -224,3 +224,183 @@ h1 {
     border-bottom: 2px solid #000000;
     padding-bottom: 10px;
 }
+
+.buildings {
+    background-image: url("https://www.uber-assets.com/image/upload/v1614379346/assets/f4/63ca3e-b0d7-4463-988f-a2fead503ddc/original/DotCom_Update_U4B_bg_mobileD.png");
+    width: 100%;
+    height : 100%;
+    background-position:  bottom;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 10%;
+}
+
+.buildings > div > h1 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.buildings > div > p {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.buildings > div > button {
+    background-color: #000000;
+    color: #FFFFFF;
+    outline: none;
+    border-style: none;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.buildings > div > button:hover {
+    cursor: pointer;
+    background: #3a3131;
+}
+
+.focus {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.focus > div > h1 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 500;
+    font-size: 35px;
+    margin: 40px 0px;
+    margin-right: 500px
+}
+
+.image-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+    padding: 25px;
+}
+
+.image-description > div {
+    height: 550px;
+}
+
+.image-description > div > h3 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 500;
+    margin: 15px 0px;
+}
+
+.image-description > div > p { 
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-right: 25px;
+}
+
+.image-description > div > a {
+    color: #000000;
+    margin-right: 15px;
+    border-bottom: solid 1px #000000;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+}
+
+.focused-icons {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 300;
+    width: 1200px;
+}
+
+.icons-list > li > i,
+.icons-list > li > h4,
+.icons-list > li > p,
+.icons-list > li > a {
+    margin: 10px 0;
+}
+
+.icons-list > li:hover {
+    border-radius: unset;
+    background-color: unset;
+}
+
+.icons-list > li > a {
+    color: #000000;
+    border-bottom: solid 1px #000000;
+    display: inline-block;
+}
+
+.app {
+    padding: 55px 0px;
+    background-color: #F6F6F6;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app > h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-right: 500px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons > button {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 500;
+    font-size: 20px;
+    padding: 30px 35px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    outline: none;
+    background-color:#FFFFFF;
+    border: 1px solid hsla(0, 0%, 0%, 0.12);;
+}
+
+.buttons > button > img {
+    margin-right: 15px;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.links {
+    margin-right: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 30px;
+}
+
+.links > a {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+    color: #000000;
+    font-size: 35px;
+    padding-bottom: 20px;
+    margin-right: 100px;
+}
+
